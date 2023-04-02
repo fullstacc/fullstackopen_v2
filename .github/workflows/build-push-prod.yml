@@ -22,7 +22,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v2
       with:
-        context: .
+        context: ./part1
         push: true
         tags: |
           ${{ secrets.REGISTRY_NAME }}/fullstackopen-part1:latest
