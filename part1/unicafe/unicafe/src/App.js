@@ -1,7 +1,7 @@
 const App = () => {
   const course = {
     id: 1,
-    name: 'Half Stack application development',
+    name: 'Full Stack application development',
     parts: [
       {
         name: 'Fundamentals of React',
@@ -20,6 +20,8 @@ const App = () => {
       }
     ]
   }
+
+  console.log('youre looking at the correct page')
 
   return <Course course={course} />
 }
